@@ -4,8 +4,8 @@ This is the group assignemt for CDS504. We've implemented five MapReduce program
 ## Required libray for running MapReduce in local system or Hadoop environment
 To run in local system or Hadoop, we need to install two libraries. Here is the command to install the required libraries. First library is for MapReduce framework to run Hadoop Streaming jobs and the second library is for converting our date to day such as 2020/05/07 to Thursday.
 
-`pip install mrjob`
-`pip install python-dateutil`
+1. `pip install mrjob`
+2. `pip install python-dateutil`
 
 ## Pivot
 In pivot, we'll use "BreadBasket_DMS.csv" dataset to pivot and preprocess the dataset to be used with other MapReduce programs. From pivot.py, we will get three output textfiles which are support.txt, confidence.txt and lift.txt. Our pivot MapReduce program can be executed with this command.
@@ -54,5 +54,5 @@ Running in local system,
 Running in Hadoop system,
 `python sales_comparison.py -r hadoop --hadoop-streaming-jar /hadoop-2.10.0/share/hadoop/tools/lib/hadoop-streaming-2.10.0.jar BreadBasket_DMS.csv`
 
-**Notes**
+**Notes:**
 Hadoop Streaming java file (hadoop_streaming-2.10.0.jar) file path and version may be varied based on Hadoop system and installation.
