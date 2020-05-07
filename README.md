@@ -55,4 +55,4 @@ Running in Hadoop system,
 `python sales_comparison.py -r hadoop --hadoop-streaming-jar /hadoop-2.10.0/share/hadoop/tools/lib/hadoop-streaming-2.10.0.jar BreadBasket_DMS.csv`
 
 **Notes:**
-Hadoop Streaming java file (hadoop_streaming-2.10.0.jar) file path and version may be varied based on Hadoop system and installation.
+For Hadoop Streaming java file (hadoop_streaming-2.10.0.jar), file path and file name may be varied based on Hadoop system version and installation.
