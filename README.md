@@ -23,7 +23,7 @@ Running in local system,
 `python support.py support.txt -q`
 
 Running in Hadoop system,
-`python pivot.py -r hadoop --hadoop-streaming-jar /hadoop-2.10.0/share/hadoop/tools/lib/hadoop-streaming-2.10.0.jar BreadBasket_DMS.csv`
+`python support.py -r hadoop --hadoop-streaming-jar /hadoop-2.10.0/share/hadoop/tools/lib/hadoop-streaming-2.10.0.jar support.txt`
 
 
 ## Confidence 
