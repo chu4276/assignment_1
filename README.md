@@ -1,7 +1,7 @@
 # CDS504 Assignment 1
-This is the group assignemt for CDS504. We've implemented five MapReduce programs in this assignment. These implemented programs can be executed in local system or Hadoop MapReduce system.
+This is the group assignment for CDS504. We've implemented five MapReduce programs in this assignment. These implemented programs can be executed in local system or Hadoop MapReduce system.
 
-## Required libray for running MapReduce in local system or Hadoop environment
+## Required library for running MapReduce in local system or Hadoop environment
 To run in local system or Hadoop, we need to install two libraries. Here is the command to install the required libraries. First library is for MapReduce framework to run Hadoop Streaming jobs and the second library is for converting our date to day such as 2020/05/07 to Thursday.
 
 1. `pip install mrjob`
@@ -37,7 +37,7 @@ Running in Hadoop system,
 
 
 ## Lift
-In lift, we'll use the "support.txt" dataset file as an input to our MapReduce program. For testing purposes, we've used the small dataset file which iscalled "lift_test.txt". Our lift MapReduce program can be executed with this command.
+In lift, we'll use the "support.txt" dataset file as an input to our MapReduce program. For testing purposes, we've used the small dataset file which is called "lift_test.txt". Our lift MapReduce program can be executed with this command.
 
 Running in local system,
 `python lift.py lift.txt -q`
